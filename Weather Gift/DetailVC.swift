@@ -34,7 +34,6 @@ class DetailVC: UIViewController {
         
         locationsArray[currentPage].getWeather {
             self.updateUserInterface()
-            print("**** locationsArray[self.currentPage].currentTemp = \(self.locationsArray[self.currentPage].currentTemp))")
         }
     }
     
